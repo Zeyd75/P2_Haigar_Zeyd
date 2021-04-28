@@ -1,0 +1,46 @@
+
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+.entete {
+    display: flex;
+}
+
+.logo {
+    flex: 1;
+    float: left;
+}
+
+.menu {
+    display: inline;
+    float: right;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    margin-right: 65px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.inscription a {
+    color: #247afc;
+}
+
+nav li a:hover {
+    color: #64a1fc;
+    border-top: #64a1fc 2px solid;
+    padding-top: 34px;
+}
