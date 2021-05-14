@@ -313,14 +313,29 @@ h3 {
     grid-row-end: span 7;
 }
 
+.deuxiemeBloc img {
+    height: 50%;
+}
+
+.deuxiemeBloc .descriptionActivites {
+    position: absolute;
+    margin-top: 230px;
+}
+
 .troisiemeBloc {
     grid-row-end: span 6;
+    margin-top: 25px;
+}
+
+.troisiemeBloc .descriptionActivites {
+    position: absolute;
+    margin-top: 230px;
 }
 
 .quartiersSeuls {
     display: grid;
     grid-template-rows: 1fr 50px;
-    height: 100%;
+    height: 120%;
     box-sizing: border-box;
     border-radius: 15px;
     overflow: hidden;
@@ -330,12 +345,60 @@ h3 {
 .quartiersSeuls img {
     width: 100%;
     object-fit: cover;
-    height: 100%;
+    height: 97%;
 }
 
 .descriptionActivites {
-    padding-top: 15px;
-    padding-left: 10px;
+    padding-top: 7px;
+    padding-left: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: black;
+}
+
+footer {
+    margin-top: 200px;
+    margin-left: -180px;
+    padding-top: 40px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    height: 250px;S
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-top: 3px;
+    padding-left: 0;
+}
+
+footer li {
+    margin-top: 15px;
+}
+
+/* version ordinateur*/
+@media only screen and (max-width: 1280px){
+}
+
+/* version tablette*/
+@media only screen and (max-width: 1024px){}
+
+/* version mobile*/
+@media only screen and (max-width: 600px){
+    main{
+        margin: 0;
+    }
+
+    h2{
+        font-size: 1.4rem;
+    }
+    .menu {
+        display: none;
+    }
+
 }
