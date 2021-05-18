@@ -24,6 +24,10 @@ header {
     float: right;
 }
 
+.menuResponsive {
+    display: flex;
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
@@ -59,7 +63,7 @@ header p {
     font-size: 15px;
 }
 
-form i {
+.iconeSearch {
     background-color: #f2f2f2;
     font-size: 20px;
     padding: 15px;
@@ -89,6 +93,10 @@ input {
     color: white;
     border: none;
     padding: 0 20px 0 20px;
+}
+
+.searchButton i {
+    display: none;
 }
 
 .filtres {
@@ -314,22 +322,27 @@ h3 {
 }
 
 .deuxiemeBloc img {
-    height: 50%;
+    height: 95%;
 }
 
 .deuxiemeBloc .descriptionActivites {
     position: absolute;
-    margin-top: 230px;
+    margin-top: 220px;
 }
 
 .troisiemeBloc {
     grid-row-end: span 6;
-    margin-top: 25px;
+    margin-bottom: -53px;
+    margin-top: 60px;
+}
+
+.troisiemeBloc img {
+    height: 91%;
 }
 
 .troisiemeBloc .descriptionActivites {
     position: absolute;
-    margin-top: 230px;
+    margin-top: 167px;
 }
 
 .quartiersSeuls {
@@ -346,6 +359,21 @@ h3 {
     width: 100%;
     object-fit: cover;
     height: 97%;
+}
+
+.deuxQuartiers {
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    height: 120%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 7px #c1c1c1;
+}
+
+.deuxQuartiers img {
+    width: 100%;
+    object-fit: cover;
 }
 
 .descriptionActivites {
@@ -386,19 +414,104 @@ footer li {
 }
 
 /* version tablette*/
-@media only screen and (max-width: 1024px){}
+@media only screen and (max-width: 1024px){
+    .populaires {
+        background-color: #f2f2f2;
+        border-radius: 15px;
+        padding: 30px 40px 40px 50px;
+        width: 100%;
+        flex: 1;
+        margin-bottom: 42px;
+    }
+}
 
 /* version mobile*/
 @media only screen and (max-width: 600px){
-    main{
-        margin: 0;
+    body {
+        width: auto;
+        margin-top: 5px;
+    }
+    
+   .logo {
+       margin-left:-30px;
     }
 
-    h2{
-        font-size: 1.4rem;
+   nav ul {
+        display: flex;
+        list-style-type: none;
+        flex-direction: column-reverse;
+        }
+
+    .inscription {
+        margin-left: 120px;
     }
-    .menu {
+
+    .menuResponsive {
+        margin: 44px 0 0 -160px;
+        padding-left: 62px;
+    }
+
+    .leftNav {
+        margin-left: -65px;
+        border-bottom: #0065fc 2px solid;
+        width: 155px;
+        padding-left: 40px;
+    }
+
+    .leftNav a {
+        color: #0065fc;
+    }
+
+    .rightNav {
+        margin-left: -65px;
+        width: 200px;
+        padding-left: 50px;
+        border-bottom: #f2f2f2 2px solid;
+        padding-bottom: 13px;
+    }
+
+    header h1{
+        margin-left:-30px;
+        font-size: 21.3px;
+    }
+
+    header p, form, .filtres {
+        margin-left: -30px;
+    }
+
+    .filtres nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filtres nav a {
+        margin: 0 15px 15px 0;
+        padding: 0;
+    }
+
+    .logementsDispo {
+        margin-left: -30px;
+        margin-top: 10px;
+    }
+
+    .searchButton {
+        border-radius: 15px;
+    }
+
+    .searchButton i {
+        display: inline-block;
+    }
+
+    .searchButton span {
         display: none;
+    }
+
+    .contentHotelPop {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        height: 650px;
+        flex-direction: column-reverse;
     }
 
 }

@@ -20,9 +20,11 @@
             </div>
             <nav class="menu">
                 <ul>
-                    <li><a href="#hebergements">Hébergements</a></li>
-                    <li><a href="#activites">Activités</a></li>
-                    <li class="inscription"><a href="#">S'inscrire</a></li>
+                <div class="menuResponsive">
+                    <li class="leftNav"><a href="#hebergements">Hébergements</a></li>
+                    <li class="rightNav"><a href="#activites">Activités</a></li>
+                </div>
+                    <li class="inscription"><a href="#">S'inscrire</a></li> 
                 </ul>
             </nav>
         </div>
@@ -33,7 +35,9 @@
                 <i class="fas fa-map-marker-alt"></i>
             </div>
             <input id="search" type="search" placeholder="Marseille, France">
-            <button class="searchButton" type="button">Rechercher</button>
+            <button class="searchButton" type="button">
+                <span>Rechercher</span><i class="fas fa-search"></i>
+            </button>
         </form>
         <div class="filtres">
             <h2>Filtres</h2>
@@ -229,14 +233,14 @@
                     </div>
                 </a>
                 <a class="deuxiemeBloc" href="#">
-                    <div class="quartiersSeuls">
+                    <div class="deuxQuartiers">
                         <img src="assets/img/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
                             alt="activite1">
                         <div class="descriptionActivites">Fort de Pomègues</div>
                     </div>
                 </a>
                 <a class="troisiemeBloc" href="#">
-                    <div class="quartiersSeuls">
+                    <div class="deuxQuartiers">
                         <img src="assets/img/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
                             alt="activite1">
                         <div class="descriptionActivites">Îles du Frioul</div>
@@ -250,14 +254,14 @@
                     </div>
                 </a>
                 <a class="deuxiemeBloc" href="#">
-                    <div class="quartiersSeuls">
+                    <div class="deuxQuartiers">
                         <img src="assets/img/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                             alt="activite1">
                         <div class="descriptionActivites">Notre-Dame-de-la-Garde</div>
                     </div>
-                    </a>
+                </a>
                 <a class="troisiemeBloc" href="#">
-                    <div class="quartiersSeuls">
+                    <div class="deuxQuartiers">
                         <img src="assets/img/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                             alt="activite1">
                         <div class="descriptionActivites">Parc Longchamp</div>
