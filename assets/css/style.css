@@ -411,10 +411,6 @@ footer li {
 
 /* version ordinateur*/
 @media only screen and (max-width: 1280px){
-}
-
-/* version tablette*/
-@media only screen and (max-width: 1024px){
     .populaires {
         background-color: #f2f2f2;
         border-radius: 15px;
@@ -422,6 +418,36 @@ footer li {
         width: 100%;
         flex: 1;
         margin-bottom: 42px;
+    }
+}
+
+/* version tablette*/
+@media only screen and (max-width: 1024px){
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .filtres a {
+        padding: 0;
+    }
+
+    main {
+        margin-left: 25px;
+    }
+
+    .contentHotelPop {
+        display: block;
+    }
+
+    .hebergements {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .logementsDispo {
+        margin-top: 10px;
     }
 }
 
@@ -473,10 +499,46 @@ footer li {
     header h1{
         margin-left:-30px;
         font-size: 21.3px;
+        margin-top: 15px;;
     }
 
     header p, form, .filtres {
         margin-left: -30px;
+    }
+
+    .logementsDispo {
+        margin-left: -30px;
+        margin-top: 10px;
+    }
+
+    .searchBloc {
+        margin-top: 30px;
+        height: 50px
+    }
+
+    .iconeSearch {
+        width: 25px;
+        font-size: 18px;
+        border-radius: 15px 0 0 15px;
+        text-align: center;
+    }
+
+    #search {
+        width: 300px;
+    }
+
+    .searchButton {
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    .searchButton i {
+        display: inline-block;
+        font-size: 17px;
+    }
+
+    .searchButton span {
+        display: none;
     }
 
     .filtres nav {
@@ -489,29 +551,135 @@ footer li {
         padding: 0;
     }
 
-    .logementsDispo {
-        margin-left: -30px;
-        margin-top: 10px;
-    }
-
-    .searchButton {
-        border-radius: 15px;
-    }
-
-    .searchButton i {
-        display: inline-block;
-    }
-
-    .searchButton span {
-        display: none;
-    }
-
     .contentHotelPop {
         display: flex;
         justify-content: space-around;
         margin-top: 30px;
+        margin-left: -30px;
         height: 650px;
         flex-direction: column-reverse;
     }
 
+    main {
+        margin-top: 730px;
+    }
+
+    .populaires {
+        padding: 25px 40px 40px 30px;
+    }
+
+    .popContent {
+        width: 378px;
+        margin-top: 0;
+    }
+
+    .logementsPop {
+        height: 100px;
+        padding: 5px 0 35px 6px;
+        margin-top: 10px;
+    }
+
+    .logementsPop img {
+        width: 35%;
+    }
+
+    .descriptionPop {
+        margin-top: -10px;
+    }
+
+    .descriptionPop h3 {
+        font-size: 16.3px;
+    }
+    
+    .descriptionPop p {
+        font-size: 14px;
+    }
+
+    .descriptionPop i {
+        font-size: 11px;
+        margin-top: 28px;
+    }
+
+    #photoPop {
+        width: 53%;
+    }
+
+    .hebergements {
+        background-color: white;
+        margin-top: -58px;
+        padding: 38px 50px 0 30px;
+    }
+
+    .hebergements h1 {
+        width: 120%;
+    }
+
+    .blocHotel {
+        display: block;
+        margin-top: -8px;
+    }
+
+    .blocHotel a{
+        margin: 50px;
+    }
+
+    .logements {
+        box-shadow: 0 0 7px #c1c1c1;        margin-top: -5px;
+        width: 145%;
+    
+    }
+
+    .logements i {
+        font-size: 11px;
+    }
+
+    #afficher {
+        margin-top: -30px;
+    }
+
+    .activites {
+        padding-left: 6px;
+        margin-top: 733px;
+    }
+
+    .blocActivites {
+        display: block;
+        margin-top: 35px;
+    }
+
+    .quartiersSeuls, .deuxQuartiers {
+        height: 41%;
+        margin-bottom: 30px;
+    }
+
+    .descriptionActivites {
+        font-size: 15px;
+        padding-top: 18px;
+    }
+
+    .deuxiemeBloc .descriptionActivites {
+        position: absolute;
+        margin-top: 135px;
+    }
+
+    .troisiemeBloc img {
+        height: 97%;
+    }
+
+    .troisiemeBloc .descriptionActivites {
+        margin-top: 135px;
+    }
+
+    footer {
+        margin-top: 860px;
+        flex-direction: column;
+        margin-left: -480px;
+        padding: 100px 500px 150px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .footer h3 {
+        font-size: 17px;
+    }
 }
