@@ -392,7 +392,7 @@ footer {
     display: flex;
     justify-content: space-around;
     font-size: 20px;
-    height: 250px;S
+    height: 250px;
 }
 
 footer h3 {
@@ -433,12 +433,9 @@ footer li {
         padding: 0;
     }
 
-    main {
-        margin-left: 25px;
-    }
-
     .contentHotelPop {
         display: block;
+        margin-right: -38px;;
     }
 
     .hebergements {
@@ -448,6 +445,45 @@ footer li {
 
     .logementsDispo {
         margin-top: 10px;
+    }
+
+    .populaires {
+        width: 83%;
+        margin-top: 25px;
+    }
+
+    .popTitle, .popContent {
+        margin-left: -30px;
+        width: 115%;
+    }
+
+    .activites {
+        margin-top: 700px;
+        padding: 0;
+    }
+
+    .premierBloc, .deuxiemeBloc, .troisiemeBloc {
+        grid-row-end: span 4;
+        grid-column-end: span 2;
+    }
+
+    .deuxiemeBloc .descriptionActivites {
+        margin-top: 0;
+        position: relative;
+    }
+
+    .troisiemeBloc {
+        margin: 0;
+    }
+
+    .troisiemeBloc .descriptionActivites {
+        margin-top: 0;
+        position: relative;
+    }
+
+    footer {
+        margin: 60px -15px 0 -20px;
+        font-size: 17px;
     }
 }
 
