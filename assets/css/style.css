@@ -528,7 +528,7 @@ footer li {
 
     .menuResponsive {
         margin: 44px 0 0 -160px;
-        padding-left: 62px;
+        padding-left: 80px;
     }
 
     .leftNav {
@@ -561,7 +561,7 @@ footer li {
     }
 
     main {
-        margin-top: 600px;
+        margin-top: 650px;
     }
 
     .logementsDispo {
@@ -601,8 +601,7 @@ footer li {
     }
 
     .filtres nav {
-        display: flex;
-        flex-wrap: wrap;
+        margin-left: 0;
     }
 
     .filtres nav a {
@@ -614,7 +613,7 @@ footer li {
         display: flex;
         justify-content: space-around;
         margin-top: 30px;
-        margin-left: -65px;
+        margin-left: -30px;
         height: 650px;
         flex-direction: column-reverse;
     }
@@ -625,10 +624,6 @@ footer li {
 
     .popTitle {
         margin-left: 0;
-    }
-
-    .popTitle i {
-        padding-right: 25px;
     }
 
     .popContent {
@@ -682,6 +677,7 @@ footer li {
     .blocHotel {
         display: block;
         margin-top: -8px;
+        width: 92%;
     }
 
     .blocHotel a{
@@ -704,8 +700,8 @@ footer li {
 
     .activites {
         padding-left: 6px;
-        margin-top: 700px;
-        margin-left: -10px;
+        margin-top: 660px;
+        margin-left: 24px;
     }
 
     .blocActivites {
@@ -733,10 +729,10 @@ footer li {
     }
 
     footer {
-        margin-top: 860px;
+        margin-top: 830px;
         flex-direction: column;
         margin-left: -465px;
-        padding: 50px 500px 150px;
+        padding: 30px 500px 150px;
         font-size: 15px;
         width: 100%;
     }
