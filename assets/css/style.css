@@ -19,8 +19,7 @@ header {
 }
 
 .menu {
-    display: inline;
-    float: right;
+    margin-right: 65px;
 }
 
 .menuResponsive {
@@ -42,8 +41,9 @@ nav a {
     color: black;
 }
 
-.inscription a {
+.inscription {
     color: #247afc;
+    margin-top: 15px;
 }
 
 nav li a:hover {
@@ -520,10 +520,12 @@ footer li {
         display: flex;
         list-style-type: none;
         flex-direction: column-reverse;
+        margin-top: 40px;
         }
 
     .inscription {
-        margin-left: 120px;
+        margin-left: -220px;
+        margin-top: -30px;
     }
 
     .menuResponsive {
@@ -543,11 +545,11 @@ footer li {
     }
 
     .rightNav {
-        margin-left: -65px;
+        margin-left: 125px;
         width: 200px;
-        padding-left: 50px;
+        padding-left: 60px;
         border-bottom: #f2f2f2 2px solid;
-        padding-bottom: 13px;
+        margin-bottom: -21px;
     }
 
     header h1{
